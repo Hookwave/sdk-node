@@ -1,17 +1,17 @@
-# @hookwave/sdk
+# hookwave-sdk
 
 Official Node.js SDK for [Hookwave](https://hookwave.dev) — emit events into a Hookwave source. Batched, retried, fire-and-forget.
 
 ```sh
-npm install @hookwave/sdk
-# or pnpm add @hookwave/sdk
-# or yarn add @hookwave/sdk
+npm install hookwave-sdk
+# or pnpm add hookwave-sdk
+# or yarn add hookwave-sdk
 ```
 
 ## Quickstart
 
 ```ts
-import { Hookwave } from "@hookwave/sdk";
+import { Hookwave } from "hookwave-sdk";
 
 const hw = new Hookwave({
   sourceKey: process.env.HOOKWAVE_SOURCE_KEY!, // src_live_… or src_test_…

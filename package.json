@@ -1,5 +1,5 @@
 {
-  "name": "@hookwave/sdk",
+  "name": "hookwave-sdk",
   "version": "0.1.0",
   "description": "Official Node.js SDK for Hookwave — emit events into a Hookwave source. Batched, retried, fire-and-forget.",
   "keywords": [
